@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration:none;
+    transition: 0,3s;
+}
+
+a:hover {
+    opacity: 0,7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2, 69, 83);
+    height: 8vh;
+    float: none;
+}
+
+main{
+    background: no-repeat
+    center center;
+    background-size: cover;
+}
+
+.nav-list li{
+    letter-spacing: 5px;
+    margin-left: 32px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.mobile-menu div {
+    display:none;
+    cursor:pointer;
+}
+.mobile-menu div {
+    width: 89px ;
+    height:2px;
+    background:#fff;
+    margin:8px;
+}
+
+#Formas_Pagamento {
+    color:rgb(2, 69, 83);
+}
+#rodape {
+    text-align: center;
+}
+#galeria{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.desktop{
+    width: 100%;
+    height: 300px;
+    float:left;
+    margin: 10px 0;
+}
+#desktopsite{
+    width: 100%;
+    height: 200px;
+}
+fieldset {
+    border: 2px solid #d1d1d1;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+legend {
+    padding: 16px;
+    font-weight: bold;
+    color:solid#024553;
+    margin:10px;
+    
+}
+
+.rotulo {
+    color:#ff8080;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.destino {
+    color:#525252;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 6px 50px;
+    border: 1px solid #d1d1d1;
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    outline: none;
+}
+.destino:hover {
+    border: 1px solid #00aeef
+}
+.destino:focus {
+    border:#00aeef
+    box-shadow 0 0 4px rgba(11,195,241,0.7);
+}
+
+
